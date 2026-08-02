@@ -1,7 +1,24 @@
 aid: wizerme
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wizerme.png
 name: WizerMe
-description: WizerMe is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: WizerMe (Wizer) is an edtech platform used by more than 700,000 teachers to build interactive,
+  self-grading digital worksheets. Educators turn existing PDFs and documents into engaging assessments with
+  multiple-choice, video, audio, open-response, and puzzle question types, record video or audio instructions,
+  apply differentiation rules, monitor student work in real time, schedule availability and time limits, and
+  sync grades with Google Classroom. Students submit answers as text, audio, or video. Wizer offers a free tier
+  (Wizer Create) and a premium tier (Wizer Boost) plus school and district plans, and is a 500 Global portfolio
+  company. No public API, developer portal, or machine-readable API surface is currently published.
 url: https://raw.githubusercontent.com/api-evangelist/wizerme/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Education
+- EdTech
+- Worksheets
+- Assessment
+- Learning
+- Teachers
+- K-12
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +47,22 @@ maintainers:
 common:
 - type: Website
   url: https://app.wizer.me
+- type: Pricing
+  url: https://info.wizer.me/teacherspage/
+- type: SignUp
+  url: https://app.wizer.me/signup
+- type: Login
+  url: https://app.wizer.me/login
+- type: TermsOfService
+  url: https://app.wizer.me/tos
+- type: PrivacyPolicy
+  url: https://info.wizer.me/privacy-policy/
+- type: Support
+  url: mailto:support@wizer.com
+- type: DomainSecurity
+  url: security/wizerme-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
